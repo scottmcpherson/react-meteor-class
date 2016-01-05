@@ -22,7 +22,14 @@ export class App extends React.MeteorComponent {
     }
   }
 
+  // Note: super needs to be called if your class defines componentWillUpdate
   componentWillUpdate() {
+    super();
+    // ...your code here
+  }
+
+  // Note: super needs to be called if your class defines componentWillUnmount
+  componentWillUnmount() {
     super();
     // ...your code here
   }
