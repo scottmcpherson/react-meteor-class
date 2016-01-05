@@ -1,6 +1,6 @@
 # Using Meteor and React with es6 Classes
 
-This is a proof of concept I through together that looks at how one might go about using es6 classes with meteor and react.
+This is a proof of concept I threw together that looks at how one might go about using es6 classes with meteor and react.
 
 It exposes the `getMeteorData` method from the meteor data mixin for react.
 
